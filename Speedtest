@@ -1,9 +1,1 @@
-from github import Github
 
-# وارد کردن توکن احراز هویت
-token = "YOUR_PERSONAL_ACCESS_TOKEN"
-g = Github(token)
-
-# نمونه گرفتن اطلاعات یک مخزن
-repo = g.get_repo("owner/repository_name")
-print(repo.full_name)
